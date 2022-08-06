@@ -7,7 +7,7 @@ body{
   color: hsl(0, 0%, 0%);
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
 }
 
@@ -15,19 +15,23 @@ body{
   font-size: 22px;
 }
 
-.confirm {
+p,
+.child,
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
+p,
+.child,
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+div .text.child {
   color: rgb(0, 0, 0);
   font-size: 14px;
 }
